@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center py-5">
+  <h1 class="display-5">Sistema de Inventario y Ventas</h1>
+  <p class="lead text-muted">TechBol · Gestión de productos, clientes y pedidos</p>
+  <div class="d-flex justify-content-center gap-2 mt-4">
+    <a href="{{ url_for('productos.listar') }}" class="btn btn-primary">Productos</a>
+    <a href="{{ url_for('clientes.listar') }}" class="btn btn-success">Clientes</a>
+    <a href="{{ url_for('pedidos.listar') }}" class="btn btn-warning">Pedidos</a>
+  </div>
+</div>
+{% endblock %}

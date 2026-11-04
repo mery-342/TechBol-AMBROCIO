@@ -1,0 +1,15 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Base de datos SQLite local (para no subir datos de prueba)
+*.db
+*.sqlite3
+
+# Configuración del editor y entorno
+.vscode/
+.env
